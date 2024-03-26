@@ -2123,6 +2123,24 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #495057; /* Blue color, you can change it */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  font-size: 16px;
+}
+
+/* Hover effect */
+.my-button:hover {
+  background-color: #387abdb4; /* Darker shade of blue on hover */
+  color: #fff; /* Text color */
+}
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -11387,7 +11405,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #387abd;
+  background-color: #387abdb4;
 }
 
 .dev-icons {
